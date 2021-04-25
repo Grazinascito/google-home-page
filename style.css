@@ -90,9 +90,11 @@ main{
 
 .ending > li > a{
     padding: 10px;
+    color: #000;
 }
 .start> li > a{
     padding: 10px;
+    color: #000;
 }
 
 #search{
