@@ -51,7 +51,7 @@ main{
  .content-main{
      height: 100vh;
     margin: auto;
-    background: rgb(229, 182, 182);
+    
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,8 @@ main{
 .content-links-footer {
     display: flex;
    align-items: flex-end;
-   height: 20px;
+   min-height: 40px;
+   background-color: rgba(194, 190, 190, 0.418);
 }
 
 .start{
@@ -94,7 +95,37 @@ main{
     padding: 10px;
 }
 
+#search{
+    width: 80vh;
+    max-width: 500px;
+    height: 40px;
+    border: 1px solid #e1e1e1;
+    outline: 0;
+    border-radius: 50px;
+    margin: 20px 0px 30px 0px;
+}
 
+.buttons{
+    text-align: center;
+}
+
+.buttons div {
+
+    background-color:#eee;
+   display: inline;
+    padding: 10px;
+    margin: 10px;
+   color: #3b3b3b;
+  
+   border-color: #c0c0c0;
+   border-radius: 4px;
+    
+   
+}
+
+.buttons a{
+    text-decoration: none;
+}
 
 
 
