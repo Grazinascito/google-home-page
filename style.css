@@ -111,6 +111,10 @@ main{
     padding: 0px 16px;
 }
 
+button{
+    all: unset;
+}
+
 .buttons{
     text-align: center;
 }
